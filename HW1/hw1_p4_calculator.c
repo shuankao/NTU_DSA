@@ -15,8 +15,8 @@ double double_pop();
 char char_pop();
 int int_top = 0, char_top = 0;
 double calculate();
-double double_arr[INPUT_SIZE]; // use unsigned long int 因為輸入整數最大為八位數
-char char_arr[INPUT_SIZE];
+double double_arr[INPUT_SIZE];//存數字
+char char_arr[INPUT_SIZE];//存運算符號
 int char_arr_len, double_arr_len;
 double* double_p;//int stack
 char* char_p;//char stack
